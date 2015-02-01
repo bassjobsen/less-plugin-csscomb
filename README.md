@@ -24,6 +24,12 @@ The preceding configuration can be passed as an argument to the plugin:
 lessc file.less --csscomb="yandex"
 ```
 
+Alternatively use your own custom configuration by providing the path as an argument to the plugin:
+
+```
+lessc file.less --csscomb="test.js"
+```
+
 
 
 ## Programmatic usage
